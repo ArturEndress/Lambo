@@ -1,0 +1,36 @@
+
+FAZER -> Criar o sistema de salvamento.
+
+FAZER -> Nesta primeira etapa para fins de teste associe 
+uma tecla ou botão para carregar um jogo salvo.
+
+FAZER -> Quando um item é pego vai para o inventário se tiver espaço. 
+
+No futuro serão adicionadas novas ações.
+
+
+SALVAR/CARREGAR
+A qualquer momento o jogador poderá salvar a partida. 
+Os atributos do personagem, os itens que possui, as moedas de ouro 
+e o estado da sala (visitada/não visitada, monstros e tesouros).
+
+Deve ser salvo no formato binário e o jogador poderá ter 
+vários arquivos com sessões salvas.
+Ao iniciar o jogo poderá carregar um dos arquivos salvos.
+
+REQUISITOS BÁSICOS
+OK -> • Deve ser implementado em C++;
+OK -> • Usar a libUnicórnio ou SFML como biblioteca gráfica;
+• Uma solução orientada a objetos 
+e organizada modularmente em diversos arquivos;
+• Vetores alocados e realocados dinamicamente de forma eficiente, 
+ou seja, que não consuma grande tempo de processamento;
+• Uso intensivo de ponteiros.
+
+** Achievements – Requisitos Adicionais **
+• Jogo ter som
+• Adicionar mobília nas salas. Servem como obstáculos e não podem ser pegos.
+• Adotar uma mecânica de chaves e portas trancadas.
+• Permitir que itens sejam usados nos monstros.
+FAZER -> • Colocar armadilhas nas salas.
+• Criar uma coisa nova que consulte o professor antes de implementar a ideia.
